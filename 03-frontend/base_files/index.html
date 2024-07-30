@@ -4,25 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List of Places</title>
+    <link rel="icon" type="icon.png" href="./icon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <nav>
+        <div class="logo">
+            <a href="/"><img src="logo.png" alt="HBnB logo" width="160" height="40"></a>
+        </div>
+        <nav class="login-button">
             <a href="login.html" id="login-link">Login</a>
         </nav>
     </header>
+
+    <!-- Main -->
     <main>
-        <section id="filter">
-            <label for="country-filter">Filter by Country:</label>
-            <select id="country-filter">
-                <!-- Options will be populated dynamically -->
-            </select>
-        </section>
-        <section id="places-list">
-            <!-- List of places will be populated dynamically -->
+        <section id="Available Places">
+            <header class="section-header">
+                <h2 class="section-title">Available Places</h2>
+                <section id="filter">
+                    <label for="country-filter">Filter by Country:</label>
+                    <select id="country-filter">
+                        <!-- Options will be populated dynamically -->
+                    </select>
+                </section>
+            </header>
+            <div id="places-list">
+                <div class="place-card">
+                    <img src="beautiful-beach-house.jpg" alt="Beautiful Beach House" class="place-image">
+                    <h3>Beautiful Beach House</h3>
+                    <p>Price per night: $150</p>
+                    <p>Location: Los Angeles, United States</p>
+                    <button class="details-button">View Details</button>
+                </div>
+                <div class="place-card">
+                    <img src="cozy-cabin.jpg" alt="Cozy Cabin" class="place-image">
+                    <h3>Cozy Cabin</h3>
+                    <p>Price per night: $100</p>
+                    <p>Location: Toronto, Canada</p>
+                    <button class="details-button">View Details</button>
+                </div>
+                <div class="place-card">
+                    <img src="modern-apartment.jpg" alt="" class="place-image">
+                    <h3>Modern Apartment</h3>
+                    <p>Price per night: $200</p>
+                    <p>Location: New York, United States</p>
+                    <button class="details-button">View Details</button>
+                </div>
+            </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 HBnB Evolution. All rights reserved.</p>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
