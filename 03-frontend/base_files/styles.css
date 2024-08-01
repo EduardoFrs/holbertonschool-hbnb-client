@@ -324,3 +324,71 @@ footer {
     border-radius: 4px;
     margin-top: 20px;
 }
+
+
+/* --- Styles for the Add Review Page --- */
+#addreview-form {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 550px;
+    height: 650px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#addreview-form h2 {
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.addreview-form-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#addreview-form input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#addreview-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+#addreview-form select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#addreview-form button {
+    background-color: #e09123;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-top: 20px;
+}
